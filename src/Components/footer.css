@@ -1,0 +1,46 @@
+.footer-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  /* background-color: #1212122a;  */
+  padding: 40px 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(207, 8, 217, 0.917); */
+}
+
+/* First line - 'Thanks for scrolling!' */
+.footer-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 0px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Second line - 'Now go outside and touch some grass' */
+.footer-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 25px;
+  color: #ffd700; /* Gold color for emphasis */
+  margin-bottom: 20px;
+}
+
+/* Footer text - 'Designed & Built with ❤️ by Shreya' */
+.footer-text {
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}

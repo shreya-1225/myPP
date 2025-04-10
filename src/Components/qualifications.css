@@ -1,0 +1,44 @@
+.qualifications-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.qualifications-boxes {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: center;
+  gap: 20px; /* Space between boxes */
+}
+
+.qualification-box {
+  background: rgb(
+    0,
+    0,
+    rgb(8, 8, 99)
+  ); /* Dark background for better glow effect */
+  border-radius: 10px;
+  border: azure;
+
+  padding: 15px;
+  text-align: center;
+  width: 120px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Subtle default shadow */
+}
+
+.qualification-box img {
+  width: 80px;
+  height: 80px;
+}
+
+.qualification-box:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.6),
+    0 0 60px rgba(0, 255, 255, 0.4); /* Bright neon glow */
+  transform: scale(1.1); /* Slightly enlarges on hover */
+}

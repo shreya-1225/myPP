@@ -1,0 +1,71 @@
+.button-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 60%;
+  padding: 0;
+}
+
+.button-container .btn {
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-pri);
+  font-size: 18px;
+  border-radius: 40px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+/* Primary Button */
+.button-container .btn.pri {
+  border: 2px solid rgb(87, 6, 119);
+}
+
+.button-container .btn.pri:hover {
+  background-color: rgb(87, 6, 119);
+  box-shadow: 0 0 15px rgb(87, 6, 119);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Secondary Button (Sky Blue with Glow Effect) */
+.button-container .btn.sec {
+  /* background-color: #70f6f1; /* Sky Blue */
+  /* color: white; */
+  border: 2px solid #70f6f1;
+}
+
+.button-container .btn.sec:hover {
+  background-color: #70f6f1;
+  box-shadow: 0 0 15px rgba(94, 179, 209, 0.9); /* Soft Glow */
+  transform: scale(1.05);
+  color: #000000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 820px) {
+  .button-container {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .button-container .btn {
+    height: 85px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .button-container .btn {
+    height: 75px;
+    width: 150px;
+  }
+}
