@@ -61,7 +61,7 @@
 }
 
 .home-container .logo .hover-show.active .circle:nth-child(1) {
-  background: url(./Props/htm.jpg);
+  background: url("/Props/htm.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -70,49 +70,49 @@
 .home-container .logo .hover-show.active .circle:nth-child(2) {
   position: absolute;
   transform: translateX(150%) translateY(-150%);
-  background: url(./Props/css.jpg);
+  background: url("/Props/css.jpg");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(3) {
   position: absolute;
   transform: translateX(210%);
-  background: url(./Props/js.png);
+  background: url("/Props/js.png");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
   transform: translateX(150%) translateY(150%);
-  background: url(./Props/mb.jpg);
+  background: url("/Props/mb.jpg");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(5) {
   position: absolute;
   transform: translateY(210%);
-  background: url(./Props/React.jpg);
+  background: url("/Props/React.jpg");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
   transform: translateX(-150%) translateY(150%);
-  background: url(./Props/express.jpg);
+  background: url("/Props/express.jpg");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-210%);
-  background: url(./Props/node.jpg);
+  background: url("/Props/node.jpg");
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-150%) translateY(-150%);
-  background: url(./Props/java.jpg);
+  background: url("/Props/java.jpg");
   background-size: cover;
   background-position: center;
 }
